@@ -15,7 +15,7 @@ app.use(
 app.use(`/`, handler);
 
 function handler(req, res) {
-  res.status(200).end('Hello World in qa!');
+  res.status(200).end('Hello World in qa. New commit!');
 }
 
 app.listen(port, () => {
